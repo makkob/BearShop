@@ -1,0 +1,85 @@
+.container {
+  display: flex;
+  /* justify-content: space-around; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  /* background-color: antiquewhite; */
+}
+
+.content1{
+  flex-basis:20%;
+
+}
+
+.content2 {
+  flex-basis:80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  /* flex-basis:20%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  background-color: #efeee9;
+  /* height: max-content; */
+  min-height: 30vw;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 0px 25px black;
+  /* background-image: url("./img/woodenBackground2.jpg"); */
+  /* border: 3px solid #0f0802  */
+  position: fixed;
+  left: 0px;
+  top:5vw;
+  z-index: 0;
+}
+
+.button {
+  margin: auto;
+  color: black;
+  font-family: "Pt Serif", sans-serif;
+  font-size:1.5vw;
+  width: 20vw;
+  background-color: transparent;
+  border: transparent;
+  text-align:right;
+  height: auto;
+}
+
+.button:hover{
+  cursor: pointer;
+    background-color: transparent;
+    animation-name: mouseeHover;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+ 
+}
+.button:focus{
+    text-decoration: underline #bd782d        ;
+        letter-spacing: 0.2ch;
+        width: 90%;
+}
+
+@keyframes mouseeHover {
+    from {
+        text-decoration:none;
+
+    }
+    to {
+        text-decoration: underline #bd782d        ;
+        letter-spacing: 0.2ch;
+        width: 90%;
+
+    }
+  }
+
+
+.h2{
+    text-align: center;
+    font-family: "Pt Serif", sans-serif;
+    font-weight: 700;
+    font-size: 2.2vw;
+    text-decoration: underline;
+}

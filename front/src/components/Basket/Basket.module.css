@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700");
+
+
+.input {
+  border-radius: 5px;
+  border: 0px;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 12rem;
+  font-weight: 600;
+}
+.input:hover {
+  background-color: #efeee9;
+  border: 2px solid rgb(87, 87, 87);
+  animation-name: toGreen;
+  animation-duration: 0.2s;
+}
+
+@keyframes toGreen {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  100% {
+    background-color: rgba(199, 230, 203, 0.288);
+  }
+}
+.input:active {
+  font-size: 0.8rem;
+  background-color: rgb(235, 235, 235);
+}
+
+.selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h3 {
+  font-size: 2.1rem;
+  text-align: center;
+  margin-top: 1rem;
+
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  border-radius: 15px;
+}
+
+.buttonGroup{
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: 'PT Serif', serif;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  padding: 0.8rem;
+  width: 60%;
+  background: #132b37;
+  margin: auto;
+  margin-top: 2rem;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+  color: white
+}
+
+.container {
+  display: flex;
+  
+  /* justify-content: space-around; */
+}
+
+.delivery {
+  flex-basis: 60%;
+  
+}
+
+.basket {
+  flex-basis: 40%;
+}

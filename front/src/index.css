@@ -1,0 +1,48 @@
+/* @import url("https://fonts.cdnfonts.com/css/roboto");
+
+@import url("https://fonts.cdnfonts.com/css/caudex");
+
+@import url('https://fonts.cdnfonts.com/css/tinos'); */
+
+/* 
+white 
+#efeee9
+
+dark-blue 
+#132b37
+
+orange 
+#bd782d
+
+brown 
+#62513f
+
+black 
+#0f0802 
+*/
+
+/* test */
+
+body {
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+  /* font-family: "Tinos", sans-serif; */
+  /* background-color: rgb(182, 212, 200); */
+  /* background-color: rgb(49, 49, 49); */
+
+  background-color: #efeee9;
+  background-image: url("./img/AnchorBackground.png");
+  /* Dark theme */
+  /* background-color: rgb(44, 44, 44); */
+
+  /* background: url("./img/27388538457_7596baae5f_k.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(7px) brightness(0.9) contrast(70%); */
+}
+
+hr {
+  margin: 0px;
+  padding: 0px;
+}

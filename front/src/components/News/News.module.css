@@ -1,0 +1,28 @@
+.news{
+    /* background: linear-gradient(0deg,rgb(147, 179, 128) 30%,rgb(255, 241, 165) 100%);  */
+    /* background: linear-gradient(0deg,rgb(20, 20, 20) 30%,rgba(202, 75, 75, 1) 100%);  */
+    /* padding: 7.5rem; */
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.newsDiv{
+    background-color: aliceblue; 
+    border-radius: 25px;
+    height: 31.25rem;
+    width: 50rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.newsIMG{
+    max-height: 31.25rem;
+    max-width: 50rem;
+    border-radius: 25px;
+
+overflow: hidden;
+}

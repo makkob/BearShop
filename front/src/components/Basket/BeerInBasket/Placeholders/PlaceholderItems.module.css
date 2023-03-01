@@ -1,0 +1,36 @@
+.item {
+  background-color: #efeee9;
+  box-shadow: 2px 2px 4px #000000;
+
+  border-radius: 20px;
+  padding: 0.3rem;
+  margin: 0.5rem;
+  width: fit-content;
+}
+
+.img {
+  width: 10rem;
+}
+.button {
+  font-family: "PT Serif", serif;
+
+  width: 100%;
+  border-radius: 15px;
+  /* border: 1px inset rgb(116, 116, 116); */
+  border: 0px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+}
+.button:hover {
+  cursor: pointer;
+  color: 0f0802;
+  animation-name: toRed;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.button:active {
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0);
+}
